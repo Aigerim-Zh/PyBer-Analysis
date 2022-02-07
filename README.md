@@ -29,7 +29,7 @@ From the chart above, we can see a clear trend in the data. Urban cities have th
 
 ## Summary Statistics for Each City Type
 
-### Ride Counts 
+### Ride Counts Per City (120 cities)
 
 | Metrics | Urban | Suburban | Rural| 
 | --------| ------| ---------| -----| 
@@ -46,7 +46,7 @@ From the chart above, we can see a clear trend in the data. Urban cities have th
 - The average number of rides in rural cities is about 3.5 and 2.5 times lower than that in urban and suburban cities, respectively.
 - The median in each distribution is not that different from the mean, i.e., the distributions are normal and no major skewness is expected. 
 
-### Driver Counts 
+### Driver Counts Per City (120 cities)
 
 | Metrics | Urban | Suburban | Rural| 
 | --------| ------| ---------| -----| 
@@ -64,19 +64,23 @@ From the chart above, we can see a clear trend in the data. Urban cities have th
 - The median in each distribution is not that different from the mean, i.e., the distributions are normal and no major skewness is expected. 
 - One interesting observation is that there are 32 rural cities where there is only one PyBer driver available. 
 
-### Price Fare 
+### Price Fares (2375 daily trips)
 
-| The mean fare price for urban trips is $24.53.| 
-| The median fare price for urban trips is $24.64.| 
-| The mode fare price for urban trips is ModeResult(mode=array([22.86]), count=array([5]))|
-| |
-| The mean fare price for suburban trips is $30.97.| 
-| The median fare price for suburban trips is $30.75.| 
-| The mode fare price for suburban trips is ModeResult(mode=array([17.99]), count=array([3]))| 
-| |
-| The mean fare price for rural trips is $34.62.| 
-| The median fare price for rural trips is $37.05.| 
-| The mode fare price for rural trips is ModeResult(mode=array([37.05]), count=array([2])|
+| Metrics | Urban | Suburban | Rural| 
+| --------| ------| ---------| -----| 
+| count   | 1625.00 | 625.00| 125.00|
+| mean    | 24.52 | 30.97| 34.62|
+| std     | 11.74 | 10.67| 14.55|
+| min     | 4.05  |12.05| 10.11|
+| 25%     | 14.55| 21.97| 19.90|
+| 50%     | 24.64 | 30.75| 37.05|
+| 75%     | 34.58 | 39.83| 47.07|
+| max     | 44.97| 46.96| 58.55 |
+| mode    |22.86 (5 times)|  17.99 (3 times)| 37.05 (2 times)|
+
+- The average fare in rural cities is 1.4 and 1.1 times higher than that in urban and suburban cities, respectively. 
+- The median in each distribution is not that different from the mean, i.e., the distributions are normal and no major skewness is expected. 
+- In the period between January to early May of 2019, the number of daily PyBer trips in rural cities is 13 and 5 times fewer than that in urban cities. 
 
 ## Checking for outliers 
 
