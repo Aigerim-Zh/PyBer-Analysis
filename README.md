@@ -66,17 +66,17 @@ From the chart above, we can see a clear trend in the data. Urban cities have th
 
 ### Price Fare 
 | ------------------------------------------------------------------------------- |
-The mean fare price for urban trips is $24.53.
-The median fare price for urban trips is $24.64.
-The mode fare price for urban trips is ModeResult(mode=array([22.86]), count=array([5])).
+| The mean fare price for urban trips is $24.53.| 
+| The median fare price for urban trips is $24.64.| 
+| The mode fare price for urban trips is ModeResult(mode=array([22.86]), count=array([5]))| 
 | ------------------------------------------------------------------------------- |
-The mean fare price for suburban trips is $30.97.
-The median fare price for suburban trips is $30.75.
-The mode fare price for suburban trips is ModeResult(mode=array([17.99]), count=array([3])).
+| The mean fare price for suburban trips is $30.97.| 
+| The median fare price for suburban trips is $30.75.| 
+| The mode fare price for suburban trips is ModeResult(mode=array([17.99]), count=array([3]))| 
 | ------------------------------------------------------------------------------- |
-The mean fare price for rural trips is $34.62.
-The median fare price for rural trips is $37.05.
-The mode fare price for rural trips is ModeResult(mode=array([37.05]), count=array([2])).
+| The mean fare price for rural trips is $34.62.| 
+| The median fare price for rural trips is $37.05.| 
+| The mode fare price for rural trips is ModeResult(mode=array([37.05]), count=array([2])|
 
 ## Checking for outliers 
 
