@@ -28,10 +28,10 @@ From the bubble chart, we can see a clear trend in the datat. Urban cities have 
 ![](https://github.com/Aigerim-Zh/PyBer-Analysis/blob/main/Analysis/Summary%20Statistics_Urban.png)
 
 **Suburban Cities**
-!()(https://github.com/Aigerim-Zh/PyBer-Analysis/blob/main/Analysis/Summary%20Statistics_Suburban.png)
+![](https://github.com/Aigerim-Zh/PyBer-Analysis/blob/main/Analysis/Summary%20Statistics_Suburban.png)
 
 **Rural Cities**
-!()(https://github.com/Aigerim-Zh/PyBer-Analysis/blob/main/Analysis/Summary%20Statistics_Rural.png)
+![](https://github.com/Aigerim-Zh/PyBer-Analysis/blob/main/Analysis/Summary%20Statistics_Rural.png)
 
 
 The "ride_id" does not make sense because it summarized the average of the ID number and not the count. 
@@ -46,11 +46,13 @@ The median in each distribution is not that different from the mean, meaning tha
 The average fare price is the highest in rural cities
 
 ## Checking for outliers 
+
+![](https://github.com/Aigerim-Zh/PyBer-Analysis/blob/main/Analysis/Box_and_whisker%20plot.png)
 There is at least one outlier, closer to 40, for urban cities number of rides. 
 
 There is one outlier in the urban ride count data. Also, the average number of rides in the rural cities is about 4- and 3.5-times lower per city than the urban and suburban cities, respectively.
 
-### Total and Per Ride Summary Data by City Type
+## Total and Per Ride Summary Data by City Type
 ![](https://github.com/Aigerim-Zh/PyBer-Analysis/blob/main/Analysis/Summary%20Statistics.png)
 
 - Customers in rural cities pay roughly $10 more, on average, than customers in urban cities.
@@ -58,7 +60,7 @@ There is one outlier in the urban ride count data. Also, the average number of r
 - There is the highest number of drivers in urban cities, 31 times the drivers in rural cities. 
 - There is the highest number of rides in urban cities, 13 times the rides in rural cities; this, might also be explained by the fact that the average fare per ride is the lowest in urban areas. 
 
-### Showing the Trend
+## Showing the Trend Over Time
 ![](https://github.com/Aigerim-Zh/PyBer-Analysis/blob/main/Analysis/Multiple%20line%20plot.png)
 
 - The time-series plot shows that the same trend persists over time. 
